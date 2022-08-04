@@ -1,0 +1,241 @@
+.nav{
+    background-color: black;
+    color: white;
+    margin: 0px;
+   
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+.res_link{
+  color: white;
+  text-decoration: none;
+}
+.res_link:visited{
+  color: #fff;
+}
+.link{
+  text-decoration: none;
+  
+}
+.link:visited{
+  color: white;
+}
+span{
+  color: rgb(55, 109, 255) ;
+}
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* CSS */
+.button{
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin:10px;
+  overflow: visible;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 10px 20px;
+  }
+}
+
+
+
+.button_icon{
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    margin:10px;
+    overflow: visible;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button_icon:focus {
+    text-decoration: none;
+  }
+  
+  .button_icon:hover {
+    text-decoration: none;
+  }
+  
+  .button_icon:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button_icon:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button_icon {
+      padding: 10px 10px;
+    }
+  }
+  
+  .three_d{
+    width: 100%;
+    
+  }
+  .cont_head{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    position: relative;
+    bottom: 370px;
+    height: 0px;
+
+  }
+  h1{
+    color: white;
+    font-size: 54px;
+    width: 90%;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+    width: 80%;
+  }
+  .cont_img{
+width: 250px;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: #fff 8px 8px 0 0,#000 1px 1px 0 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin:10px;
+    overflow: visible;
+   
+    text-align: center;
+
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+   
+  }
+ 
+  
+  @media screen and (min-width: 1440px) {
+   .cont_head{
+    bottom: 450px;
+   }
+  }
+  @media (max-width: 950px){
+    .cont_head{
+      bottom: 200px;
+     }
+     h1{
+      font-size: 30px;
+     }
+     .cont_img{
+      width: 150px;
+     }
+  }
+
+  @media (max-width: 800px) {
+    .button_icon{
+      padding: 10px 20px;
+      margin: 5px;
+    }
+   
+   
+  .ul{
+    display: flex;
+    flex-direction: column;
+  }
+   }
+   @media (max-width: 500px) {
+     .value{
+      background-color: rgb(255, 0, 0);
+      width: 100px;
+      padding: 5px;
+      
+     }
+     .name{
+      font-size: 15px;
+     }
+     .box{
+      width: 100%;
+     }
+     p{
+      font-size: 14px;
+     }
+     h6{
+         margin: 0px;
+         font-size: 10px;
+         text-align: center;
+     }
+    }
